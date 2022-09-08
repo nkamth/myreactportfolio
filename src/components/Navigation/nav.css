@@ -1,8 +1,41 @@
-.nav-container {
-    width: 80%;
-    max-width: 300px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
+
+span[role="img"] {
+	cursor: default;
+}
+.flex-row {
+	display: flex;
+	justify-content: space-evenly;
+}
+ul li {
+	list-style:none;
+  
+}
+
+nav li {
+	cursor:alias;
+}
+
+.mx-2 {
+	margin-right: var(--spacing-two);
+	margin-left: var(--spacing-two);
+}
+.navActive {
+	color: var(--primary);
+}
+h2 {
+	font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 5px 0;
+	line-height: 1.25;
+}
+
+nav div h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav div {
+    position: relative;
+    width: 110%;
 }

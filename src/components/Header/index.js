@@ -3,11 +3,12 @@ import Navigation from "../Navigation";
 import "./header.css";
 const Header = (props) => {
   const { currentTab, setCurrentTab } = props;
+  const { headerName } = "Namitha";
 
   return (
     <header>
       <div>
-        <h2>Namitha's React Portfolio</h2>
+        <h2>{headerName}</h2>
       </div>
       <div>
         <Navigation
