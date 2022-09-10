@@ -1,12 +1,12 @@
 import React from "react";
 import Navigation from "../Navigation";
-import "./header.css";
+import "./headerStyle.css";
 const Header = (props) => {
   const { currentTab, setCurrentTab } = props;
   const { headerName } = "Namitha";
 
   return (
-    <header>
+    <header style={{ background: "black", color: "orange" }}>
       <div>
         <h2>{headerName}</h2>
       </div>
