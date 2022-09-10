@@ -15,11 +15,12 @@ main {
 	margin: 0 auto;
 	max-width:90%;
 	padding: 50px 30px;
+	
 }
 
 :root {
 	--primary: #ffc857;
-	--secondary: #2E282A;
+	--secondary: #060508;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
 	--quinary: #bfd7ea;
@@ -41,11 +42,6 @@ body {
 	min-height: 100%;
 }
 
-header{
-	color: #2E282A;
-}
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -62,7 +58,9 @@ body {
 }
 
 .mobile-header {
-  width: 110%;
+  width: auto;
+  background-color:var(--secondary);
+  padding: 20px;
 }
 
 /* try */
@@ -89,9 +87,70 @@ body {
 	max-width: 100%;
   }
 
- 
- @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 980px) {}
+ /* @media screen and (min-width: 1230px) {
 	body {
-	   width:1100px;
+	   width:1230px;
 	}
- }
+ } */
+  @media screen and (max-width: 817px) {
+	header div {
+		position: relative;
+		width: 110%;
+	}
+
+	header div h2 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	nav ul li span {
+		font-size: 0.75em;
+	}
+
+	.mobile-header {
+		width: 110%;
+	}
+
+	.mobile-row {
+		display: block;
+		margin: 0 100px 0 auto;
+	}
+
+	.mobile-view {
+		display: inline;
+		text-align: end;
+	}
+
+	.photo {
+		width: auto;
+		height: auto;
+		max-width: 500px;
+		max-height: 300px;
+		padding: 50px;
+	}
+
+	input {
+		width: 350px;
+	}
+
+	textarea {
+		width: 350px;
+		height: 120px;
+		border: 3px solid #cccccc;
+		padding: 5px;
+	}
+
+	ol {
+		font-size: 0.75rem;
+	}
+} 
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 575px) {} 

@@ -1,8 +1,14 @@
 
+header {
+	background: var(--secondary);
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	text-align: center;
+}
 
-
-header  {
-	color:black;
+header a {
+	color: var(--light);
 }
 p{
     color: black;

@@ -28,6 +28,9 @@ function App() {
   };
   return (
     <div>
+      {/* <div className="mobile-header">
+        <h2>Namitha React Portfolio</h2>
+      </div> */}
       <div className="mobile-header">
         <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       </div>

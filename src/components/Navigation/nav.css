@@ -23,10 +23,12 @@ nav li {
 	color: var(--primary);
 }
 h2 {
+	display: flex;
 	font-size:15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin: 5px 0;
+    font-family:'Times New Roman', Times, serif;
+	margin-top: 5px 0;
 	line-height: 1.25;
+	color:var(--tertiary);
 }
 
 nav div h2 {
