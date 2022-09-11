@@ -41,6 +41,9 @@ const Portfolio = () => {
   ];
   return (
     <section id="projects">
+      <div className="center">
+				<h2 className="page-header">Portfolio</h2>
+			</div>
       <div className="flex-row space-around">
         {projects.map((project, i) => (
           <div className="card" key={project.title}>

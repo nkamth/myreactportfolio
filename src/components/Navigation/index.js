@@ -7,9 +7,6 @@ const Navigation = (props) => {
   return (
     <nav>
       <div>
-        <h2>Namitha React Porfolio</h2>
-      </div>
-      <div>
         <ul className="flex-row mobile-view">
           <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
             <span onClick={() => setCurrentTab("about")}>About Me</span>

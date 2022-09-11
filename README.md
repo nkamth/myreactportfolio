@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# React Portfolio Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Module 20 challenge - An updated portfolio showcasing my full stack dev projects. Contains 6 projects, an about me, and the ability to download my resume.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Live Site](#live-site)
+- [Preview](#preview)
+- [Requirements](#requirements)
+- [Instructions](#instructions)
+- [Tech Used](#tech-used)
+- [Usage](#usage)
+- [Github Link](#github)
+- [Deployed Link](#deployed)
+- [Contact](#contact)
 
-### `npm start`
+### Live Site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Deployed Website Link](https://nkamth.github.io/myreactportfolio/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Preview
+<img width="1165" alt="Screen Shot 2022-09-10 at 8 41 34 PM" src="https://user-images.githubusercontent.com/97250880/189506692-b7adc9da-5dd3-4516-8b3a-f0d12664d334.png">
 
-### `npm test`
+<img width="1152" alt="Screen Shot 2022-09-10 at 8 41 57 PM" src="https://user-images.githubusercontent.com/97250880/189506710-8ba37d69-f360-4794-ae83-6ed0955ae261.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requirements
 
-### `npm run build`
+- Updated portfolio featuring 6 total projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A `Header` component that appears on multiple pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A single `Project` component that will be used multiple times on a single page
 
-### `npm run eject`
+- Navigation with React Router, dynamic rendering, or another third part router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A `Footer` component that appears on multiple pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Update GitHub profile with pinned repositories featuring those same projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Deploy this site to GitHub Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Instructions
 
-## Learn More
+- [Updated Portfolio](#updated-portfolio)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Design](#design)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](#react)
 
-### Code Splitting
+### Updated Portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Your updated site should still have all of the content it previously had:
 
-### Analyzing the Bundle Size
+- Your name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-### Making a Progressive Web App
+- A link to a PDF of your resume with updated projects
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- A list of projects. For each project, make sure you have the following:
 
-### Advanced Configuration
+  - Project title
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  - Link to the deployed version
 
-### Deployment
+  - Link to the GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  - GIF or screenshot of the deployed application
 
-### `npm run build` fails to minify
+#### Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
+
+- Mobile-first design
+
+- Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+
+- Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+- If you want to go above and beyond, try using animations and react component libraries. Note
+  that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
+
+### React
+
+Additionally, this new portfolio should be created using React.
+
+At a minimum, your portfolio should include the following:
+
+- A `Header` component that appears on multiple pages
+
+- A single `Project` component that will be used multiple times on a single page
+
+- Navigation with React Router, dynamic rendering, or another third part router
+
+- A `Footer` component that appears on multiple pages
+
+### Tech Used
+
+Dependencies:
+
+```bash
+- "react": "^17.0.2",
+- "react-dom": "^17.0.2",
+- "react-scripts": "4.0.3",
+```
+
+## Usage
+
+To use this repo, go to the cloned files, then type `npm start` in your command-line. Be sure you’re in the correct location in your command-line/terminal first! Be sure you're also set up to run a react app!
+
+## Github Repo Link
+https://github.com/nkamth/myreactportfolio
+
+
+## Deployed live URL
+https://nkamth.github.io/myreactportfolio/
+
+## Contact
+
+- Namitha V Kamath
+- github: https://github.com/nkamth
+- email: namitha.289@gmail.com

@@ -3,11 +3,11 @@ import React from "react";
 const Resume = () => {
   return (<section>
     <div className="center">
-      <h1 className="page-header">My Resume</h1>
+      <h2 className="page-header">My Resume</h2>
     </div>
     <div className="bottom-spacing">
       <a href={require("../../assets/files/namithaCV.docx")} download>
-        <h4>Download my Resume</h4>
+        <h2>Download my Resume</h2>
       </a>
     </div>
     <div>

@@ -27,10 +27,11 @@ function App() {
     }
   };
   return (
+    <section>
+       <div className="center">
+				<h2 className="page-header">Namitha React Portfolio</h2>
+			</div>
     <div>
-      {/* <div className="mobile-header">
-        <h2>Namitha React Portfolio</h2>
-      </div> */}
       <div className="mobile-header">
         <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       </div>
@@ -41,6 +42,7 @@ function App() {
         <Footer></Footer>
       </div>
     </div>
+    </section>
   );
 }
 
